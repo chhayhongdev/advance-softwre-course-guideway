@@ -179,6 +179,7 @@
   - Service discovery and load balancing in K8s
   - Scaling, rolling updates, and self-healing
   - Managing configurations and secrets in Kubernetes
+  
 **Project:** Containerize the entire e-commerce microservice application and deploy it to a local or cloud-based Kubernetes cluster
 
 ---
