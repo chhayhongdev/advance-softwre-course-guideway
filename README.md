@@ -8,19 +8,32 @@ This repository contains a comprehensive Spring Boot Microservices course with d
 
 ```
 spring-boot-course/
-├── 📄 [README.md](README.md)                                      # Course overview and file mapper
-├── 📄 [course-template.md](course-template.md)                   # Main course outline and syllabus
-├── 📄 [pre-course-java-essentials.md](pre-course-java-essentials.md)          # Java fundamentals prerequisite
-├── 📄 [module-0-software-development-methodologies.md](module-0-software-development-methodologies.md) # Development methodologies
-├── 📄 [module-1-microservices-architecture.md](module-1-microservices-architecture.md)         # Microservices fundamentals
-├── 📄 [module-2-building-core-microservices.md](module-2-building-core-microservices.md)        # Core Spring Boot services
-├── 📄 [module-3-spring-cloud-distributed-systems.md](module-3-spring-cloud-distributed-systems.md)   # Spring Cloud ecosystem
-├── 📄 [module-4-resiliency-security-observability.md](module-4-resiliency-security-observability.md)  # Production readiness
-├── 📄 [module-5-containerization-orchestration.md](module-5-containerization-orchestration.md)     # Docker & Kubernetes
-├── 📄 [module-6-advanced-topics-best-practices.md](module-6-advanced-topics-best-practices.md)     # Advanced patterns
-├── 📄 [course-quizzes.md](course-quizzes.md)                   # Assessment questions
-├── 📄 [course-assignments.md](course-assignments.md)           # Hands-on assignments
-└── 📄 [final-project-smart-city-analytics.md](final-project-smart-city-analytics.md) # Capstone project
+├── 📄 [README.md](README.md)
+│   # Course overview and file mapper
+├── 📄 [course-template.md](course-template.md)
+│   # Main course outline and syllabus
+├── 📄 [pre-course-java-essentials.md](pre-course-java-essentials.md)
+│   # Java fundamentals prerequisite
+├── 📄 [module-0-software-development-methodologies.md](module-0-software-development-methodologies.md)
+│   # Development methodologies
+├── 📄 [module-1-microservices-architecture.md](module-1-microservices-architecture.md)
+│   # Microservices fundamentals
+├── 📄 [module-2-building-core-microservices.md](module-2-building-core-microservices.md)
+│   # Core Spring Boot services
+├── 📄 [module-3-spring-cloud-distributed-systems.md](module-3-spring-cloud-distributed-systems.md)
+│   # Spring Cloud ecosystem
+├── 📄 [module-4-resiliency-security-observability.md](module-4-resiliency-security-observability.md)
+│   # Production readiness
+├── 📄 [module-5-containerization-orchestration.md](module-5-containerization-orchestration.md)
+│   # Docker & Kubernetes
+├── 📄 [module-6-advanced-topics-best-practices.md](module-6-advanced-topics-best-practices.md)
+│   # Advanced patterns
+├── 📄 [course-quizzes.md](course-quizzes.md)
+│   # Assessment questions
+├── 📄 [course-assignments.md](course-assignments.md)
+│   # Hands-on assignments
+└── 📄 [final-project-smart-city-analytics.md](final-project-smart-city-analytics.md)
+    # Capstone project
 ```
 
 ### 📚 Module Breakdown
