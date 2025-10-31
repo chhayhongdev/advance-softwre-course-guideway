@@ -369,6 +369,7 @@ Successful system design requires understanding these concepts and making inform
 ### Throughput vs Latency
 
 ```java
+
 public class ThroughputLatencyDemo {
 
     // High throughput, high latency (batch processing)
@@ -426,6 +427,7 @@ public class BatchOrderProcessor {
 ```
 
 #### **Connection Pooling**
+
 ```yaml
 # Database connection pool configuration
 spring:
