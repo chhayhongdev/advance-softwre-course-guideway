@@ -327,33 +327,6 @@ Design requirements for distributed systems involve complex trade-offs between c
 5. **Continuous Monitoring**: Track performance and adjust as needed
 
 Successful system design requires understanding these concepts and making informed trade-offs based on specific application requirements and constraints.
-        FINANCIAL_TRANSACTIONS,    // CP - Strong consistency critical
-        SOCIAL_MEDIA_FEED,         // AP - Availability and scale important
-        USER_SESSIONS,            // AP - Eventual consistency acceptable
-        CONFIGURATION_DATA,       // CP - Must be consistent across nodes
-        LOG_AGGREGATION,          // AP - High write throughput needed
-        ECOMMERCE_INVENTORY       // CP - Prevent overselling
-    }
-
-    public static String recommendDatabase(SystemType type) {
-        switch (type) {
-            case FINANCIAL_TRANSACTIONS:
-            case ECOMMERCE_INVENTORY:
-            case CONFIGURATION_DATA:
-                return "PostgreSQL with synchronous replication (CP)";
-
-            case SOCIAL_MEDIA_FEED:
-            case LOG_AGGREGATION:
-                return "Cassandra or DynamoDB (AP)";
-
-            case USER_SESSIONS:
-                return "Redis Cluster (CP) or Cassandra (AP)";
-
-            default:
-                return "PostgreSQL (CA for single node, CP for multi-node)";
-        }
-    }
-}
 ```
 
 ## 2. Throughput
